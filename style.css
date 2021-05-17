@@ -1,0 +1,123 @@
+body
+{
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+  background:url(fond1.jpg);
+}
+div#conteneur
+{
+  width: 800px ;
+  margin: 0 auto ;
+  text-align: left ;
+  border: 2px solid #2b4c69 ;
+  background:#d3d8db ;
+}
+h1#header
+{
+  height: 400px ;
+  width: 100%;
+  background: url(giphy.gif) no-repeat center;
+  
+}
+div#contenu
+{
+	padding: 0 30px 0 100px ;
+	
+}
+div#contenu h2
+{
+	padding-left: 25px ;
+	line-height: 25px ;
+	font-size: 1.4em ;
+	color: #2b4c69 ;
+	border-bottom: 1px solid #2b4c69 ;
+}
+div#contenu h3
+{
+	margin-left: 15px ;
+	padding-left: 5px ;
+	border-bottom: 1px solid #2b4c69 ;
+	border-left: 3px solid #2b4c69 ;
+	color: #2b4c69 ;
+}
+div#contenu p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+div#contenu a
+{
+	color: #2b4c69 ;
+}
+
+div#contenu a:hover
+{
+	color: #7794ed;
+}
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: #062a96;
+}
+pre
+{
+	overflow: auto ;
+	background: #2b4c69 ;
+	border: 2px solid #2b4c69 ;
+	padding: 5px 0 0 5px ;
+	font-size: 1.2em ;
+}
+pre span
+{
+	color: #2b4c69 ;
+}
+pre span.comment
+{
+	color: #2b4c69 ;
+}
+ul#menu
+{
+	height: 30px ;
+	margin: 0 ;
+	padding: 0 ;
+	background: #2b4c69;
+	list-style-type: none ;
+}
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+ul#menu li a
+{
+	width: 170px ;
+	line-height: 30px ;
+	font-size: 1em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #fff ;
+	display: block ;
+	text-decoration: none ;
+	border-right: 2px solid #2b4c69 ;
+}
+ul#menu li a:hover
+{
+	background: #45ade6;
+	transition: all 1.5s ;
+}
+h1#header a
+{
+	width: 800px ;
+	height: 300px ;
+	display: block ;
+	background: url(titre1.png) no-repeat ;
+	position: relative ;
+	left: 80px ;
+	top: 0px ;
+	text-indent: -5000px ;
